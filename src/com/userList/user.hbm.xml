@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name ="com.userList.User"  table="UserReputation">
+<id column ="ID" name="id" type="java.lang.Integer">
+<generator class = "increment" /></id>
+<property column="USER_NAME" name="userName" type="java.lang.String" />
+<property column="USER_GoldBadges" name="password1" type="string" />
+<property column="USER_SilverBadges" name="email" type="java.lang.String" />
+<property column="USER_BronzeBadges" name="phone" type="java.lang.String" />
+</class>
+</hibernate-mapping>
